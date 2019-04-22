@@ -1,0 +1,11 @@
+Navigate to Ordered Test that linked to Order from step 1 -> Click Cancel button -> Select Cancel reason from the Cancel drop-down (for example "Cancelled-Internal")
+Ordered Test Status Reason = "Cancelled"
+Ordered Test Sub-Status = Selected Cancel reason ("Cancelled-Internal")
+Ordered Test State = "Inactive" 
+Expected status is received in LIMS
+
+Click Activate button -> Click Activate on "Confirm Ordered Test Activation" pop-up
+Ordered Test Status Reason = "Active"
+Ordered Test Sub-Status = "Submitted to LIMS"
+Ordered Test State = "Active"
+Expected status is received in LIMS
